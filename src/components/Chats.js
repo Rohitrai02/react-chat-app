@@ -26,7 +26,7 @@ const Chats = () => {
   const handleSelect = (userInfo) => {
     dispatch({ type: "CHANGE_USER", payload: userInfo });
   };
-  console.log(Object.entries(chats));
+  // console.log(Object.entries(chats));
 
   return (
     <div className="chats">
